@@ -55,8 +55,10 @@ h4 {
 
 .container {
   clear: both;
-  width: 960px;
+  width: unset;
   margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 100px;
   background-color: #fff;
   border: solid 1px #ccc;
@@ -244,7 +246,7 @@ input[type="submit"] {
   }
 
   .container {
-    width: initial;
+    width: unset;
     margin-right: 280px;
     margin-left: 30px;
   }
@@ -252,7 +254,7 @@ input[type="submit"] {
 
 @media screen and (max-width: 768px) {
   .container {
-    width: initial;
+    width: unset;
     margin-right: 30px;
     margin-left: 30px;}
   .formcontainer{
@@ -370,6 +372,7 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 640px) {
+  
   .thumbnail{
     width: 488px;
   }
@@ -383,6 +386,11 @@ input[type="submit"] {
     margin-top: 0;
     margin-bottom: 345px
   }
+    .tittle, .navigation, .footer, html{
+      width: 640px;
+    }
+
+
 
 
 
