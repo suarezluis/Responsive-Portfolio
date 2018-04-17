@@ -100,7 +100,7 @@ footer {
   padding-top: 40px;
   border-top: solid 10px #4aaaa5;
   width: 100%;
-  
+
   bottom: 0;
   text-align: center;
 }
@@ -183,16 +183,207 @@ input[type="submit"] {
   text-align: center;
   display: inline-block;
   margin-bottom: 185px;
-  
+
   padding-top: 5px;
   clear: both;
 }
 
-.appNames a{
+.appNames a {
   background-color: transparent;
 }
-.appNames a:hover{
+.appNames a:hover {
   background-color: white;
   width: 0px;
+}
+
+@media screen and (max-width: 980px) {
+  /* * {
+      width: 100%;
+    } */
+
+  .centered {
+    width: 100%;
+  }
+
+  .navigation {
+    width: initial;
+    margin-right: 30px;
+  }
+
+  .tittle {
+    margin-left: 30px;
+  }
+
+  .container  {
+    width: initial;
+    margin-right: 280px;
+    margin-left: 30px;
+  }
+
+  input, textarea,#email,#fname{
+    width: 80%;
+
+  }
+}
+@media screen and (max-width: 980px) {
+  /* * {
+        width: 100%;
+      } */
+
+  .centered {
+    width: 100%;
+  }
+
+  .navigation {
+    width: initial;
+    margin-right: 30px;
+  }
+
+  .tittle {
+    margin-left: 30px;
+  }
+
+  .container {
+    width: initial;
+    margin-right: 280px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: initial;
+    margin-right: 30px;
+    margin-left: 30px;}
+  .formcontainer{
+
+    width: 90%;
+    margin: 30px;
+
+  }
+  input, textarea,#email,#fname{
+    width: 90%;}
   
+  
+}
+@media screen and (max-width: 697px) {
+  .tittle {
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .centered {
+    height: 120px;
+    background-color: white;
+  }
+  .navigation {
+    width: 100%;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  #profilePicture {
+    float: none;
+    clear: both;
+    margin: 0;
+
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 982px) {
+  .appNames {
+    
+    float: none;
+    clear: both;
+    width: 67%;
+    height: 100%;
+    margin-right: 280px;
+    margin-top: -120px;
+  }
+
+  .thumbnail{
+    width: 250px;
+  }
+  .appName{
+    float: none;
+    clear: both;
+    margin-top: 135px;
+    margin-bottom: 47px;
+    width: 257px;
+    margin-left:30px;
+  }
+}
+  @media screen and (max-width: 770px) {
+    .appNames {
+      
+      float: none;
+      clear: both;
+      width: 67%;
+      height: 100%;
+      margin-right: 280px;
+      margin-top: -120px;
+    }
+  
+    .thumbnail{
+      width: 250px;
+    }
+    .appName{
+      float: none;
+      clear: both;
+      margin-top: 135px;
+      margin-bottom: 47px;
+      width: 257px;
+      margin-left:30px;
+    }
+
+}
+@media screen and (max-width: 714px) {
+.tittle {
+  clear: both;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+.centered {
+  height: 120px;
+  background-color: white;
+}
+.navigation {
+  width: 100%;
+  margin-right: auto;
+  text-align: center;
+}
+}
+@media screen and (max-width: 768px) {
+
+
+.appNames{
+  
+  width: 91%;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 640px) {
+  .thumbnail{
+    width: 488px;
+  }
+
+  .appNames{
+    margin-top: 160px;
+  }
+
+  .appName{
+    width: 495px;
+    margin-top: 0;
+    margin-bottom: 345px
+  }
+
+
+
 }
