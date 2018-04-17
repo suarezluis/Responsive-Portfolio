@@ -29,7 +29,6 @@ body {
   color: #fff;
   width: 250px;
   float: left;
-
 }
 .navigation {
   float: right;
@@ -193,8 +192,6 @@ input[type="submit"] {
   clear: both;
 }
 
-
-
 .centered {
   width: 100%;
 }
@@ -208,118 +205,110 @@ input[type="submit"] {
   margin-left: 0;
 }
 
-.centered{
+.centered {
   width: 960px !important;
 }
 
-.container  {
+.container {
   width: 960px;
   margin-right: 30px;
   margin-left: 30px;
 }
 
-
-
-
 @media screen and (max-width: 1023px) {
-
-  
-
-  .centered, .formcontainer, .container, .appNames, .input, #fname, #email, #message, label{
+  .centered,
+  .formcontainer,
+  .container,
+  .appNames,
+  .input,
+  #fname,
+  #email,
+  #message,
+  label {
     width: unset !important;
-   
-    
   }
-  .formcontainer, input, textarea, label{
+  .formcontainer,
+  input,
+  textarea,
+  label {
     margin-left: 0;
     display: block;
   }
-  
-  #email, #fname{
+
+  #email,
+  #fname {
     width: unset;
     float: none;
     height: unset;
     padding-right: 65%;
-    
   }
-  #message{
+  #message {
     padding-right: 70%;
   }
-  .container{
+  .container {
     margin-left: 30px;
   }
-  
-  form{
+
+  form {
     margin-right: 30px;
     margin-left: 30px;
   }
-
 }
 
-
-
-
-
 @media screen and (max-width: 695px) {
-  
-  .mainHeader{
+  .mainHeader {
     height: 110px;
-    
   }
-  
-  .navigation{
+
+  .navigation {
     text-align: center !important;
-    margin-right:0;
+    margin-right: 0;
   }
 
-  .tittle, .navigation, .footer, html{
-    width: 100%;}
-
-  .tittle{
-    margin:unset;
+  .tittle,
+  .navigation,
+  .footer,
+  html {
+    width: 100%;
   }
 
-  input, textarea,#email,#fname{
+  .tittle {
+    margin: unset;
+  }
+
+  input,
+  textarea,
+  #email,
+  #fname {
     width: 80%;
-  
-  
   }
-  .thumbnail{
+  .thumbnail {
     width: 488px;
   }
 
-  .appNames{
+  .appNames {
     margin-top: 160px;
   }
 
-  .appName{
+  .appName {
     width: 495px;
     margin-top: 0;
-    margin-bottom: 345px
+    margin-bottom: 345px;
   }
 }
 
-
 @media screen and (max-width: 640px) {
-  
-  #profilePicture{
+  #profilePicture {
     width: 80%;
     float: none;
-    
   }
-
-  
-
-  
-    
-
-
-
-
-
 }
 
 @media screen and (max-width: 620px) {
-  .tittle, .navigation, .footer, html{
+  .tittle,
+  .navigation,
+  .footer,
+  html {
     width: 620px;
-  }}
+  }
+}
